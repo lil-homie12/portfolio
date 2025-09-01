@@ -8,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 340; /*Yash 210 - *Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Yash 210 - *Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -896,9 +896,16 @@ img{
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work__container {
+  max-width: 70rem;           /* ~1120px */
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 3rem); /* consistent gutters */
+}
+
 .work__box {
     display: flex;
     align-items: center;
+    gap: clamp(1rem, 2vw, 2rem); /* parent controls spacing between text/image */
 }
 
 @media(max-width: 900px) {
@@ -909,13 +916,8 @@ img{
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
-}
-
-@media(max-width: 500px) {
-    .work__box:not(:last-child) {
-        margin-bottom: 20rem;
-    }
+    /*margin-bottom: 2rem;*/
+    margin-block-end: clamp(1rem, 2vw + 0.25rem, 2rem);
 }
 
 .work__links {
@@ -924,42 +926,54 @@ img{
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 50%;
 }
 
 .work__list {
-    /* list-style-type: square; */
     list-style-position: inside;
-    margin-bottom: var(--gutter-normal);
+    margin-block-end: var(--gutter-normal, clamp(0.5rem, 1vw, 1rem));
 }
+
+/*.work__list li {
+  font-size: 1.25rem;   
+  font-weight: 600;
+  margin-block: 0.5rem; 
+}*/
+
 
 .work__code {
     display: block;
     height: 3rem;
-    margin-left: var(--gutter-normal);
-    transition: all .3s;
+    margin-left: var(--gutter-normal, 1rem);
+    transition: transform .3s;
 }
 
-.work__code:hover {
+@media (prefers-reduced-motion: reduce) {
+  .work__code { transition: none; }
+}
+
+.work__code:hover,
+.work__code:focus-visible {
     transform: scale(1.2);
 }
 
+@media (max-width: 900px) {
+  .work__code { height: 4rem; }
+}
+
 .work__image-box {
-    margin-bottom: var(--gutter-normal);
+    margin-bottom: var(--gutter-normal, 1rem);
 }
 
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
-        margin: 0 0 0 10rem;
+        margin: 0 0 0 clamp(2rem, 5vw, 6rem);
+        margin-block-end: 0;
     }
 }
 
-@media(max-width: 900px) {
-    .work__code {
-        height: 4rem;
-    }
-}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display:flex;
