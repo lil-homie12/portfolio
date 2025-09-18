@@ -1007,6 +1007,10 @@ img{
   grid-column: 1;
 }
 
+.align__right {
+  margin-left: auto;
+}
+
 .qualification__data .timeline {
   grid-column: 2;
 }
