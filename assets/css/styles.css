@@ -280,6 +280,7 @@ img{
 
 .home__data {
     flex: 1;
+    margin-bottom: 5rem;
 }
 .home__img {
     -flex: 1;
@@ -1757,7 +1758,8 @@ img{
     }
 
     .contact__form{
-        width: 460px;
+        width: 860px
+        ;
     }
 
     .contact__inputs{
