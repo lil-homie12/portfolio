@@ -1,545 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--==================== META FOR SEO ====================-->
-        <meta name="description" content="Add small description of yourslef.">
-        <meta name="keywords" content="Put your name, skills and some coding keywords" />
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>Lily Trinh</title>
-        <link rel="icon" href="./assets/img/graduation-cap.svg" type="image/x-icon">
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Lily Trinh</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class="uil uil-estate nav__icon"></i>Home
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#work" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i>Services
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i>About
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Clients" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i>Clients
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
-                </div>
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== META FOR SEO ====================-->
+    <meta name="description" content="Add small description of yourslef." />
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Lily Trinh</title>
+    <link
+      rel="icon"
+      href="./assets/img/graduation-cap.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Lily Trinh</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Clients" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Clients
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/tranglilytrinh" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="instagram" target="_blank" class="home__social-icon">
-                                <i class="uil uil-instagram"></i>
-                            </a>
-                        </div>
-                        <div class="home__data">
-                            <h2 class="home__title">Hi! I'm Lily Trinh.</h2>
-                            <h3 class="home__subtitle">M.B.A. Emory University (TOP 17 US)</h3>
-                            <p class="home__description">“I came to the US for my MBA with no business background. I learned how to choose the right school, apply to jobs, network, and interview through hard lessons, but eventually thrived. 
-Now, as a Product Manager at a global FinTech, I help international students walk this path with more clarity and confidence.”</p>
-                            <div class="home__buttons">
-                                <a download href="https://drive.google.com/file/d/1aexke-T8Vf22dhsAH3kW3k4EDXRVzP1c/view?usp=sharing" class="button button--flex" style="margin-right: 1rem;">
-                                      My BrandeMe
-                                    <i class="uil uil-download-alt button__icon"></i>
-                                </a>
-                                <a href="#contact" class="button--flex button">
-                                    Contact Me
-                                    <i class="uil uil-message button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
-                                    <path d="M190.312 36.4879C206.582 62.1187
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/tranglilytrinh"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="instagram" target="_blank" class="home__social-icon">
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+            <div class="home__data">
+              <h2 class="home__title">Hi! I'm Lily Trinh.</h2>
+              <h3 class="home__subtitle">
+                M.B.A. Emory University (TOP 17 US)
+              </h3>
+              <p class="home__description">
+                “I came to the US for my MBA with no business background. I
+                learned how to choose the right school, apply to jobs, network,
+                and interview through hard lessons, but eventually thrived. Now,
+                as a Product Manager at a global FinTech, I help international
+                students walk this path with more clarity and confidence.”
+              </p>
+              <div class="home__buttons">
+                <a
+                  download
+                  href="https://drive.google.com/file/d/1aexke-T8Vf22dhsAH3kW3k4EDXRVzP1c/view?usp=sharing"
+                  class="button button--flex"
+                  style="margin-right: 1rem"
+                >
+                  My BrandeMe
+                  <i class="uil uil-download-alt button__icon"></i>
+                </a>
+                <a href="#contact" class="button--flex button">
+                  Contact Me
+                  <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187
                                         201.309 102.826 182.328 134.186C163.346
                                         165.547 130.807 187.559 100.226 186.353C69.6454
                                         185.297 41.0228 161.023 21.7403 129.362C2.45775
                                         97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871
                                         10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23
-                                        0.303176 174.193 10.857 190.312 36.4879Z" />
-                                </mask>
-                                <g mask="url(#mask0)">
-                                    <path d="M190.312 36.4879C206.582 62.1187
+                                        0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187
                                         201.309 102.826 182.328 134.186C163.346
                                         165.547 130.807 187.559 100.226 186.353C69.6454
                                         185.297 41.0228 161.023 21.7403 129.362C2.45775
                                         97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871
                                         10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23
-                                        0.303176 174.193 10.857 190.312 36.4879Z" />
-                                    <image class="home__blob-img" x="-85" y="0" width="200" height="187" xlink:href="assets/image/photo.png" />
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== MY WORK ====================-->
-              <section class="work" id="Services">
-      <div class="row">
-        <div class="work__container">
-         
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Consulting Services</h3>
-              <p>
-                <h4>Help international students unlock the right MBA path and career opportunities in the US</h4>
-              </p>
-              <ul class="work__list">
-                <li>🎓MBA Program Selection: Find the right fit for your story, background, and budget</li>
-                <li>🤝Networking: Build meaningful connections and personal brands as an international student</li>
-                <li>💼Job Search Coach: Hands-on support from resume prep to interview practice and recruiter outreach</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://lil-homie12.github.io/portfolio/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                </div>
-            </div>
-            <div class="work__image-box">
-              <img src="assets/image/handshake.jpg" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>AI Resume Builder</h3>
-              <p>
-              <h4>Build an AI-powered resume builder that generates tailored, ATS-optimized resumes with a team</h4>
-              </p>
-              <ul class="work__list">
-                <li>Next.js</li>
-                <li>Python</li>
-                <li>FastAPI</li>
-                <li>Machine Learning</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://github.com/Yash2108/AI-Job-App.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="assets/image/project-2.png" class="work__image" alt="Project 2" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>AI Social Matching App</h3>
-              <p>
-                More to come soon!
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Python</li>
-                <li>Machine Learning</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#"> 
-                  <i class="uil uil-github-alt"></i>
-                  <class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="assets/image/project-3.png" class="work__image" alt="Project 3" />
+                                        0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-85"
+                    y="0"
+                    width="200"
+                    height="187"
+                    xlink:href="assets/image/photo.png"
+                  />
+                </g>
+              </svg>
             </div>
           </div>
         </div>
+      </section>
+
+      <!--==================== MY WORK ====================-->
+      <section class="work" id="Services">
+        <div class="row">
+          <div class="work__container">
+            <!-- Each div with the work__box class is a project. -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Consulting Services</h3>
+                <p>
+                  Help international students unlock the right MBA path and
+                  career opportunities in the US
+                </p>
+                <ul class="work__list">
+                  <li>
+                    🎓MBA Program Selection: Find the right fit for your story,
+                    background, and budget
+                  </li>
+                  <li>
+                    🤝Networking: Build meaningful connections and personal
+                    brands as an international student
+                  </li>
+                  <li>
+                    💼Job Search Coach: Hands-on support from resume prep to
+                    interview practice and recruiter outreach
+                  </li>
+                </ul>
+                <div class="work__links">
+                  <a
+                    href="https://lil-homie12.github.io/portfolio/"
+                    target="_blank"
+                    class="work__button work__button--primary"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="assets/image/handshake.jpg"
+                  class="work__image"
+                  alt="Consulting Services"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>AI Resume Builder</h3>
+                <p>
+                  Build an AI-powered resume builder that generates tailored,
+                  ATS-optimized resumes with a team
+                </p>
+                <ul class="work__list">
+                  <li>Next.js</li>
+                  <li>Python</li>
+                  <li>FastAPI</li>
+                  <li>Machine Learning</li>
+                </ul>
+                <div class="work__links">
+                  <a
+                    href="https://github.com/Yash2108/AI-Job-App.git"
+                    target="_blank"
+                    class="work__button work__button--primary"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Yash2108/AI-Job-App.git"
+                    target="_blank"
+                    class="work__button work__button--secondary"
+                    title="View Source Code"
+                  >
+                    <i class="uil uil-github-alt"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="assets/image/project-2.png"
+                  class="work__image"
+                  alt="AI Resume Builder"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>AI Social Matching App</h3>
+                <p>More to come soon!</p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>Python</li>
+                  <li>Machine Learning</li>
+                </ul>
+                <div class="work__links">
+                  <a
+                    href="#"
+                    class="work__button work__button--primary work__button--disabled"
+                  >
+                    Coming Soon <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="work__button work__button--secondary work__button--disabled"
+                    title="View Source Code"
+                  >
+                    <i class="uil uil-github-alt"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="assets/image/project-3.png"
+                  class="work__image"
+                  alt="AI Social Matching App"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">My Experience</span>
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#work"
+            >
+              <i class="uil uil-briefcase-alt qualification__icon"></i>Work
+            </div>
+            <div
+              class="qualification__button button--flex"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i
+              >Education
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION CONTENT 1 ====================-->
+          <div
+            class="qualification__content qualification__active"
+            data-content
+            id="work"
+          >
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div class="content align__right">
+                <h3 class="qualification__title">Product Manager</h3>
+                <span class="qualification__subtitle"
+                  >Intercontinental Exchange</span
+                >
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle">Atlanta, GA</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Jul 2024 - Present
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="empty"></div>
+            </div>
+
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data reverse">
+              <div class="empty"></div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="content">
+                <h3 class="qualification__title">
+                  Product Consultant, MBA Intern
+                </h3>
+                <span class="qualification__subtitle">Georgia Pacific</span>
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle">Atlanta, GA</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    May 2023 - Aug 2023
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 3 ====================-->
+            <div class="qualification__data">
+              <div class="content align__right">
+                <h3 class="qualification__title">Financial Analyst</h3>
+                <span class="qualification__subtitle">Emory University</span>
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle">Atlanta, GA</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Jan 2023 - May 2023
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="empty"></div>
+            </div>
+
+            <!--==================== QUALIFICATION 4====================-->
+            <div class="qualification__data reverse">
+              <div class="empty"></div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="content">
+                <h3 class="qualification__title">
+                  Management Consultant, Project Leader
+                </h3>
+                <span class="qualification__subtitle">Dalberg Advisors</span>
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle">Singapore</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Jan 2022 - Jul 2022
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 5 ====================-->
+            <div class="qualification__data">
+              <div class="content align__right">
+                <h3 class="qualification__title">Product Manager</h3>
+                <span class="qualification__subtitle">ZIM Academy</span>
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle"
+                    >Ho Chi Minh City, Vietnam</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Feb 2019 - Dec 2022
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="empty"></div>
+            </div>
+
+            <!--==================== QUALIFICATION 6====================-->
+            <div class="qualification__data reverse">
+              <div class="empty"></div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="content">
+                <h3 class="qualification__title">English Teacher</h3>
+                <span class="qualification__subtitle">Public High Schools</span>
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle"
+                    >Ho Chi Minh City, Vietnam</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Sep 2015 - Jan 2019
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--==================== QUALIFICATION CONTENT 2 ====================-->
+          <div class="qualification__content" data-content id="education">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div class="content align__right">
+                <h3 class="qualification__title">
+                  Emory University, Goizueta Business School
+                </h3>
+                <span class="qualification__subtitle"
+                  >Master of Business Administration</span
+                >
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle">Atlanta, GA</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Jul 2022 - May 2024
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="empty"></div>
+            </div>
+
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data reverse">
+              <div class="empty"></div>
+              <div class="timeline">
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div class="content">
+                <h3 class="qualification__title">
+                  Ho Chi Minh University of Education
+                </h3>
+                <span class="qualification__subtitle"
+                  >Bachelor Arts of Education & English</span
+                >
+                <div class="qualification__details">
+                  <span class="qualification__subsubtitle"
+                    >Ho Chi Minh City, Vietnam</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Sep 2015 - Jun 2019
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CLIENT TESTIMONIAL ====================-->
+      <section class="testimonial section" id="Clients">
+        <h2 class="section__title">Tesimonials</h2>
+        <span class="section__subtitle">My clients saying</span>
+        <div class="testimonial__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== TESTIMONIAL 1 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <i class="uil uil-smile-beam" class="testimonial__img"> </i>
+
+                  <div>
+                    <h3 class="testimonial__name">Sarah Smith</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                I’d recommend Lily because she is very patient and
+                understanding. She has also walked in the same shoes that I’m
+                wearing. The struggles as an international student recruiting in
+                this clime.
+              </p>
+            </div>
+            <!--==================== TESTIMONIAL 2 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <i class="uil uil-smile-beam" class="testimonial__img"> </i>
+                  <div>
+                    <h3 class="testimonial__name">Matt Wang</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                Em nghĩ là được connect với chị thôi là đã rất valuable rồi ạ,
+                as I really want to be in your shoes several years down the road
+                from now - going to a top MBA school and continuing to work in
+                the US.
+              </p>
+            </div>
+            <!--==================== TESTIMONIAL 3 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <i class="uil uil-smile-beam" class="testimonial__img"> </i>
+                  <div>
+                    <h3 class="testimonial__name">Kevin Nguyen</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+                <div>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                  <i class="uil uil-star testimonial__icon-star"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                She is passionate about helping people navigate their job search
+                journey, Very accommodative and shares her experience as well
+              </p>
+            </div>
+          </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch with me</span>
+        <div class="contact__container container">
+          <div class="contact__info">
+            <div
+              class="contact__information contact__copyable"
+              data-copy="+1 (404) 123-4567"
+              title="Click to copy phone number"
+            >
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+1 (404) 123-4567</span>
+              </div>
+            </div>
+
+            <div
+              class="contact__information contact__copyable"
+              data-copy="lily.trinh@alumni.emory.edu"
+              title="Click to copy email address"
+            >
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >lily.trinh@alumni.emory.edu</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Atlanta, GA</span>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <a
+                href="https://www.linkedin.com/in/tranglilytrinh"
+                target="_blank"
+                class="contact__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="instagram" target="_blank" class="contact__social-icon">
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <label for="contact-name" class="contact__label">Name</label>
+                <input type="text" id="contact-name" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="contact-email" class="contact__label">Email</label>
+                <input type="email" id="contact-email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content full-width">
+              <label for="contact-message" class="contact__label"
+                >Message <span>*</span></label
+              >
+              <textarea
+                id="contact-message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <a
+              href="mailto:lily.trinh@alumni.emory.edu"
+              class="button button--flex"
+            >
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ====================
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Lily Trinh</h1>
+            <span class="footer__subtitle">M.B.A.</span>
+          </div>
+          <ul class="footer__links">
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#work" class="footer__link">Services</a></li>
+            <li><a href="#qualification" class="footer__link">About</a></li>
+            <li><a href="#clients" class="footer__link">Clients</a></li>
+            <li><a href="#contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    </section>
+    </footer> -->
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                <h2 class="section__title">About</h2>
-                <span class="section__subtitle">My Experience</span>
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target="#work">
-                            <i class="uil uil-briefcase-alt qualification__icon"></i>Work
-                        </div>
-                        <div class="qualification__button button--flex" data-target="#education">
-                            <i class="uil uil-graduation-cap qualification__icon"></i>Education
-                        </div>
-                    </div>
-                   
-                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                        <div class="qualification__content qualification__active" data-content id="work">
-                           <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-							  <div class="content align__right">
-								    <h3 class="qualification__title">Product Manager</h3>
-								    <span class="qualification__subtitle">Intercontinental Exchange</span>
-								  <div class="qualification__details">
-								    <span class="qualification__subsubtitle">Atlanta, GA</span>
-								    <div class="qualification__calendar">
-									  <i class="uil uil-calendar-alt qualification__icon"></i>
-									  Jul 2024 - Present
-								    </div>
-								  </div>
-							  </div>
-							  
-                <div class="timeline">
-								  <span class="qualification__rounder"></span>
-								  <span class="qualification__line"></span>
-							  </div>
-							  
-                <div class="empty"></div>
-							              </div>
-
-                                    <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data reverse">
-							  <div class="empty"></div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="content">
-								<h3 class="qualification__title">Product Consultant, MBA Intern</h3>
-								<span class="qualification__subtitle">Georgia Pacific</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Atlanta, GA</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									May 2023 - Aug 2023
-								  </div>
-								</div>
-							  </div>
-                            </div>                        
-                                    <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification__data">
-							  <div class="content align__right">
-								<h3 class="qualification__title">Financial Analyst</h3>
-								<span class="qualification__subtitle">Emory University</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Atlanta, GA</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									Jan 2023 - May 2023
-								  </div>
-								</div>
-							  </div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="empty"></div>
-							</div>
-                                    <!--==================== QUALIFICATION 4====================-->
-                            <div class="qualification__data reverse">
-							  <div class="empty"></div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="content">
-								<h3 class="qualification__title">Management Consultant, Project Leader</h3>
-								<span class="qualification__subtitle">Dalberg Advisors</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Singapore</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									Jan 2022 - Jul 2022
-								  </div>
-								</div>
-							  </div>
-							</div>
-                                    <!--==================== QUALIFICATION 5 ====================-->
-                            <div class="qualification__data">
-							  <div class="content align__right">
-								<h3 class="qualification__title">Product Manager</h3>
-								<span class="qualification__subtitle">ZIM Academy</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Ho Chi Minh City, Vietnam</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									Feb 2019 - Dec 2022
-								  </div>
-								</div>
-							  </div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="empty"></div>
-							</div>
-                                    <!--==================== QUALIFICATION 6====================-->
-                            <div class="qualification__data reverse">
-							  <div class="empty"></div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="content">
-								<h3 class="qualification__title">English Teacher</h3>
-								<span class="qualification__subtitle">Public High Schools</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Ho Chi Minh City, Vietnam</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									Sep 2015 - Jan 2019
-								  </div>
-								</div>
-							  </div>
-							</div>
-
-                        </div>
-                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                        <div class="qualification__content" data-content id="education">
-                            <!--==================== QUALIFICATION 3 ====================-->                                   
-                 <!--==================== QUALIFICATION 1 ====================-->
-                            <div class="qualification__data">
-							  <div class="content align__right">
-								    <h3 class="qualification__title">Emory University, Goizueta Business School</h3>
-								    <span class="qualification__subtitle">Master of Business Administration</span>
-								  <div class="qualification__details">
-								    <span class="qualification__subsubtitle">Atlanta, GA</span>
-								    <div class="qualification__calendar">
-									  <i class="uil uil-calendar-alt qualification__icon"></i>
-									  Jul 2022 - May 2024
-								    </div>
-								  </div>
-							  </div>
-							  
-                <div class="timeline">
-								  <span class="qualification__rounder"></span>
-								  <span class="qualification__line"></span>
-							  </div>
-							  
-                <div class="empty"></div>
-							              </div>
-
-                                    <!--==================== QUALIFICATION 2 ====================-->
-                            <div class="qualification__data reverse">
-							  <div class="empty"></div>
-							  <div class="timeline">
-								<span class="qualification__rounder"></span>
-								<span class="qualification__line"></span>
-							  </div>
-							  <div class="content">
-								<h3 class="qualification__title">Ho Chi Minh University of Education</h3>
-								<span class="qualification__subtitle">Bachelor Arts of Education & English</span>
-								<div class="qualification__details">
-								  <span class="qualification__subsubtitle">Ho Chi Minh City, Vietnam</span>
-								  <div class="qualification__calendar">
-									<i class="uil uil-calendar-alt qualification__icon"></i>
-									Sep 2015 - Jun 2019
-								  </div>
-								</div>
-							  </div>
-                            </div>                        
-            </div>
-            </section>
-
-            <!--==================== CLIENT TESTIMONIAL ====================-->
-             <section class="testimonial section" id="Clients">
-                            <h2 class="section__title">Tesimonials</h2>
-                            <span class="section__subtitle">My clients saying</span>
-                            <div class="testimonial__container container swiper-container">
-                                <div class="swiper-wrapper">
-           
-                                  <!--==================== TESTIMONIAL 1 ====================-->
-                                    <div class="testimonial__content swiper-slide">
-                                        <div class="testimonial__data">
-                                            <div class="testimonial__header">
-                                                <i class="uil uil-smile-beam" class="testimonial__img"> </i>
-
-                                                <div>
-                                                    <h3 class="testimonial__name">Sarah Smith</h3>
-                                                    <span class="testimonial__client">Client</span>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                            </div>
-                                        </div>
-
-                                        <p class="testimonial__description">I’d recommend Lily because she is very patient and understanding. She has also walked in the same shoes that I’m wearing. The struggles as an international student recruiting in this clime.
-                                        </p>
-                                    </div> 
-                                    <!--==================== TESTIMONIAL 2 ====================-->
-                                    <div class="testimonial__content swiper-slide">
-                                        <div class="testimonial__data">
-                                            <div class="testimonial__header">
-                                                <i class="uil uil-smile-beam" class="testimonial__img"> </i>
-                                                <div>
-                                                    <h3 class="testimonial__name">Matt Wang</h3>
-                                                    <span class="testimonial__client">Client</span>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                            </div>
-                                        </div>
-
-                                        <p class="testimonial__description">Em nghĩ là được connect với chị thôi là đã rất valuable rồi ạ, as I really want to be in your shoes several years down the road from now - going to a top MBA school and continuing to work in the US.
-                                        </p>
-                                    </div> 
-                                    <!--==================== TESTIMONIAL 3 ====================-->
-                                    <<div class="testimonial__content swiper-slide">
-                                        <div class="testimonial__data">
-                                            <div class="testimonial__header">
-                                                <i class="uil uil-smile-beam" class="testimonial__img"> </i>
-                                                <div>
-                                                    <h3 class="testimonial__name">Kevin Nguyen</h3>
-                                                    <span class="testimonial__client">Client</span>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                                <i class="uil uil-star testimonial__icon-star"></i>
-                                            </div>
-                                        </div>
-
-                                        <p class="testimonial__description">She is passionate about helping people navigate their job search journey, Very accommodative and shares her experience as well
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <!-- Add Arrows -->
-                                <div class="swiper-button-next">
-                                    <i class="uil uil-angle-right-b
-                                                    swiper-portfolio-icon"></i>
-                                </div>
-                                <div class="swiper-button-prev">
-                                    <i class="uil uil-angle-left-b
-                                                    swiper-portfolio-icon"></i>
-                                </div>
-
-                                <!-- Add Pagination -->
-                                <div class="swiper-pagination"></div>
-                            
-
-                        </section>
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch with me</span>
-                <div class="contact__container container grid">
-                  
-                  <div class="contact__container container grid">
-                                    
-                  <form action="" class="contact__form grid">
-                                    <div class="contact__inputs grid">
-                                        <div class="contact__content">
-                                            <label for="" class="contact__label">Name</label>
-                                            <input type="text" class="contact__input">
-                                        </div>
-                                        <div class="contact__content">
-                                            <label for="" class="contact__label">Email</label>
-                                            <input type="email" class="contact__input">
-                                        </div>
-                                    </div>
-                                    <div class="contact__content">
-                                        <label for="" class="contact__label">Comment*</label>
-                                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                                    </div>
-
-                                    <div>
-                                        <a href="mailto:lily.trinh@alumni.emory.edu" class="button button--flex">
-                                            Send Message
-                                            <i class="uil uil-message button__icon"></i>
-                                        </a>
-                                    </div>
-                                </form>  
-
-
-                </div>
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">Lily Trinh</h1>
-                        <span class="footer__subtitle">M.B.A.</span>
-                    </div>
-                    <ul class="footer__links">
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#work" class="footer__link">Services</a></li>
-                        <li><a href="#qualification" class="footer__link">About</a></li>
-                        <li><a href="#clients" class="footer__link">Clients</a></li>
-                        <li><a href="#contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/script.js"></script>
-    </body>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
